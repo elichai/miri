@@ -128,7 +128,6 @@ pub trait EvalContextExt<'mir, 'tcx: 'mir>: crate::MiriEvalContextExt<'mir, 'tcx
 
             | "GetModuleHandleW"
             | "GetProcAddress"
-            | "TryEnterCriticalSection"
             | "GetConsoleScreenBufferInfo"
             | "SetConsoleTextAttribute"
             => {
